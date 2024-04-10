@@ -15,6 +15,13 @@ Manual preparation is available via
 ### Training 
 The "Train" section of notebook includes train process of model.
 
+### Pre-trained model
+
+We provide pre-trained Res2TCNGuard.
+
+To evaluate, use model weights `best_1.495.pth`
+
+Due to the fact that a random part is cut out of the audio, the result may vary. The best result obtained: `EER = 1.49` and `t-DCF=0.0451`
 
 
 
